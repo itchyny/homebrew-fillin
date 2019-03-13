@@ -1,13 +1,13 @@
 class Fillin < Formula
   homepage 'https://github.com/itchyny/fillin'
-  version '0.0.8'
+  version '0.1.0'
 
   if Hardware::CPU.is_64_bit?
-    url 'https://github.com/itchyny/fillin/releases/download/v0.0.8/fillin_darwin_amd64.zip'
-    sha256 'f0aa4213e83340d1220061f1ebf6323d4c7f1e3a3c23d0e788e6bedb8ffe321a'
+    url 'https://github.com/itchyny/fillin/releases/download/v0.1.0/fillin_darwin_amd64.zip'
+    sha256 '7bfd78f881b41bf841702f5ccf39ce8459dca9d803e5a9aa5683fc7707dcfcc0'
   else
-    url 'https://github.com/itchyny/fillin/releases/download/v0.0.8/fillin_darwin_386.zip'
-    sha256 '577f149f3f887e9b907a62eaf0789a613a6a549cc4aa8165c5010966aa46e48e'
+    url 'https://github.com/itchyny/fillin/releases/download/v0.1.0/fillin_darwin_386.zip'
+    sha256 '062bd8f62fd2b4e75c1cfe71cbc542c9d0f52476044fd597c33645b6f5d2e087'
   end
 
   head do
